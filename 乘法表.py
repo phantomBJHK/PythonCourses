@@ -1,0 +1,1 @@
+print('【拜月教主】\n血量：%s\n攻击力：%s' %(BOSS_life, BOSS_attack))

@@ -1,0 +1,9 @@
+import openpyxl
+wb = openpyxl.Workbook()
+sheet = wb.active
+sheet.title = 'kaikeba'
+sheet['A1'] = 'kaikeba'
+score1 = ['math', 95]
+sheet.append(score1)
+wb.save('score.xlsx')
+wb.close()

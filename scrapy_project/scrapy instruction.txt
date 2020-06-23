@@ -1,0 +1,16 @@
+scrapy startproject aaa
+
+scrapy genspider bbb
+
+settings:
+user-agent
+robot
+download delay
+pipline
+
+items:
+
+
+pipeline:
+
+scrapy crawl bbb
